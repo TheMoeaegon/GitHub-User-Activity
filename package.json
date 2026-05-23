@@ -4,10 +4,9 @@
     "description": "A CLI tool to fetch GitHub user activity.",
     "main": "src/index.js",
     "bin": {
-        "github-activity": "./bin/index.js"
+        "gh-activity": "./src/index.ts"
     },
     "scripts": {
-        "dev": "node --watch src/index.ts",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
